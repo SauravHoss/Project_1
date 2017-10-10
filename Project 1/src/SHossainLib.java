@@ -13,7 +13,6 @@ public class SHossainLib
  			}	
 	} 
 
-		
 	//multiplicationTable given base and range does base*n for all n integers from 0- done
 	public static void multiplicationTable( int base, int range) 
 	{
