@@ -1,6 +1,6 @@
 
 public class SHossainLib 
-{	public static void main(String []args) {dateStr("01/15/17");}
+{
 	//dateStr date put in mm/dd/yyyy comes out dd-mm-yy- done
  	public static void dateStr(String str) 
 	{
