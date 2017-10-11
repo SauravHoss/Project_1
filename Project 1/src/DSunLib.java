@@ -10,4 +10,15 @@ public class DSunLib
 			}
 			System.out.print(y);
 		}
+
+	//isPalindrome checks if string same backwards and forwards
+		public static void isPalindrome(String str)
+		{
+			String g = "";
+			for (int i = str.length()-1; i >= 0; i--) 
+			{
+				g += str.charAt(i);
+			}
+			System.out.print(str.equals(g));
+		}
 }

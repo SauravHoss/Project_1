@@ -8,5 +8,6 @@ public class runner
 		//SHossainLib.multiplicationTable(3,20);
 		//SHossainLib.linearSolver(3,10,5);
 		//DSunLib.sumUpTo(6);
+		//DSunLib.isPalindrome("tacocat");
 	}
 }
