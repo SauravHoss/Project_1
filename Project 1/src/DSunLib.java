@@ -1,3 +1,6 @@
+//Dustin Sun
+//Levin Method Madness- Project 1
+//Pd: 2
 
 public class DSunLib 
 {
@@ -8,7 +11,7 @@ public class DSunLib
 			{
 				y=y+i;
 			}
-			System.out.print(y);
+			System.out.println(y);
 		}
 
 	//isPalindrome checks if string same backwards and forwards
@@ -19,6 +22,14 @@ public class DSunLib
 			{
 				g += str.charAt(i);
 			}
-			System.out.print(str.equals(g));
+			System.out.println(str.equals(g));
+		}
+	//areaandCircumofCircle- finds the area and circumference of a circle given a radius of any positive value.
+		public static void areeandCircumofCircle(double r) 
+		{	
+			double area = Math.PI*(r*r);
+			double circum = Math.PI*(2*r);
+			System.out.println("Area = " + area);
+			System.out.println("Circumference = " + circum);
 		}
 }
